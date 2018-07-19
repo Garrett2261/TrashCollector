@@ -123,3 +123,6 @@ C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\Tra
 C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.csproj.GenerateResource.cache
 C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.csprojAssemblyReference.cache
 C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.updateuserrole.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.migration2.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.deletedthebillkeyinCustomermodel.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.addedthesuspensionkeyforwhenacustomerwantstosuspend.resources
