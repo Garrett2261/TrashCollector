@@ -18,13 +18,13 @@
             @Html.DisplayNameFor(model => model.ExtraPickupDay)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.MonthlyCost)
+            @Html.DisplayNameFor(model => model.TotalBill)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.SuspensionStartDay)
+            @Html.DisplayNameFor(model => model.SuspensionStartDate)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.SuspensionEndDay)
+            @Html.DisplayNameFor(model => model.SuspensionEndDate)
         </th>
         <th></th>
     </tr>
@@ -38,13 +38,13 @@
             @Html.DisplayFor(modelItem => item.ExtraPickupDay)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.MonthlyCost)
+            @Html.DisplayFor(modelItem => item.TotalBill)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SuspensionStartDay)
+            @Html.DisplayFor(modelItem => item.SuspensionStartDate)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SuspensionEndDay)
+            @Html.DisplayFor(modelItem => item.SuspensionEndDate)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

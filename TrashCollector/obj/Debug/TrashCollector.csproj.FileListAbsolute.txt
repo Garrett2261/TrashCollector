@@ -126,3 +126,8 @@ C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\Tra
 C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.migration2.resources
 C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.deletedthebillkeyinCustomermodel.resources
 C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.addedthesuspensionkeyforwhenacustomerwantstosuspend.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.addedanemployeemodel.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.changedcustomer.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.changedcustomer2.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.MadeEmployeeModel.resources
+C:\Users\Garrett\Desktop\C# Projects\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.ChangedIdentityModel.resources

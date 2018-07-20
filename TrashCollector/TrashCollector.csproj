@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -222,9 +223,30 @@
     <Compile Include="Migrations\201807190036146_addedthesuspensionkeyforwhenacustomerwantstosuspend.Designer.cs">
       <DependentUpon>201807190036146_addedthesuspensionkeyforwhenacustomerwantstosuspend.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807190146172_addedanemployeemodel.cs" />
+    <Compile Include="Migrations\201807190146172_addedanemployeemodel.Designer.cs">
+      <DependentUpon>201807190146172_addedanemployeemodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807192301259_changedcustomer.cs" />
+    <Compile Include="Migrations\201807192301259_changedcustomer.Designer.cs">
+      <DependentUpon>201807192301259_changedcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807192323100_changedcustomer2.cs" />
+    <Compile Include="Migrations\201807192323100_changedcustomer2.Designer.cs">
+      <DependentUpon>201807192323100_changedcustomer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807192352439_MadeEmployeeModel.cs" />
+    <Compile Include="Migrations\201807192352439_MadeEmployeeModel.Designer.cs">
+      <DependentUpon>201807192352439_MadeEmployeeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807200021356_ChangedIdentityModel.cs" />
+    <Compile Include="Migrations\201807200021356_ChangedIdentityModel.Designer.cs">
+      <DependentUpon>201807200021356_ChangedIdentityModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -294,6 +316,11 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Edit.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Employees\Create.cshtml" />
+    <Content Include="Views\Employees\Delete.cshtml" />
+    <Content Include="Views\Employees\Details.cshtml" />
+    <Content Include="Views\Employees\Edit.cshtml" />
+    <Content Include="Views\Employees\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -326,6 +353,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807190036146_addedthesuspensionkeyforwhenacustomerwantstosuspend.resx">
       <DependentUpon>201807190036146_addedthesuspensionkeyforwhenacustomerwantstosuspend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807190146172_addedanemployeemodel.resx">
+      <DependentUpon>201807190146172_addedanemployeemodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807192301259_changedcustomer.resx">
+      <DependentUpon>201807192301259_changedcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807192323100_changedcustomer2.resx">
+      <DependentUpon>201807192323100_changedcustomer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807192352439_MadeEmployeeModel.resx">
+      <DependentUpon>201807192352439_MadeEmployeeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807200021356_ChangedIdentityModel.resx">
+      <DependentUpon>201807200021356_ChangedIdentityModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

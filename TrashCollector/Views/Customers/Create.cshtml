@@ -32,26 +32,26 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.MonthlyCost, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.TotalBill, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.MonthlyCost, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.MonthlyCost, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.TotalBill, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TotalBill, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.SuspensionStartDay, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.SuspensionStartDate, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.SuspensionStartDay, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.SuspensionStartDay, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SuspensionStartDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SuspensionStartDate, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.SuspensionEndDay, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.SuspensionEndDate, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.SuspensionEndDay, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.SuspensionEndDay, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SuspensionEndDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SuspensionEndDate, "", new { @class = "text-danger" })
             </div>
         </div>
 

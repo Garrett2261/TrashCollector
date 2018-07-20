@@ -12,9 +12,9 @@ namespace TrashCollector.Models
         public int ID { get; set; }
         public string PickupDay { get; set; }
         public string ExtraPickupDay { get; set; }
-        public double MonthlyCost { get; set; }
-        public string SuspensionStartDay { get; set; }
-        public string SuspensionEndDay { get; set; }
+        public int TotalBill { get; set; }
+        public string SuspensionStartDate { get; set; }
+        public string SuspensionEndDate { get; set; }
 
         //customer needs a bill
         //customer should not set bill
