@@ -29,7 +29,22 @@ namespace TrashCollector.Migrations
                 new Customers() { ID = 12, PickupDay = "Friday", ZipCode = 53151 },
                 new Customers() { ID = 13, PickupDay = "Thursday", ZipCode = 53151 },
                 new Customers() { ID = 14, PickupDay = "Tuesday", ZipCode = 53151 },
-                new Customers() { ID = 15, PickupDay = "Thursday", ZipCode = 53151 }
+                new Customers() { ID = 15, PickupDay = "Thursday", ZipCode = 53151 },
+                new Customers() { ID = 16, PickupDay = "Monday", ZipCode = 53152 },
+                new Customers() { ID = 17, PickupDay = "Tuesday", ZipCode = 53152 },
+                new Customers() { ID = 18, PickupDay = "Tuesday", ZipCode = 53151 },
+                new Customers() { ID = 19, PickupDay = "Wednesday", ZipCode = 53152 },
+                new Customers() { ID = 20, PickupDay = "Wednesday", ZipCode = 53152 },
+                new Customers() { ID = 21, PickupDay = "Thursday", ZipCode = 53151 },
+                new Customers() { ID = 22, PickupDay = "Thursday", ZipCode = 53151 },
+                new Customers() { ID = 23, PickupDay = "Monday", ZipCode = 53151 },
+                new Customers() { ID = 24, PickupDay = "Monday", ZipCode = 53151 },
+                new Customers() { ID = 25, PickupDay = "Friday", ZipCode = 53152 },
+                new Customers() { ID = 26, PickupDay = "Friday", ZipCode = 53152 },
+                new Customers() { ID = 27, PickupDay = "Friday", ZipCode = 53151 },
+                new Customers() { ID = 28, PickupDay = "Friday", ZipCode = 53151 },
+                new Customers() { ID = 29, PickupDay = "Thursday", ZipCode = 53152 },
+                new Customers() { ID = 30, PickupDay = "Wednesday", ZipCode = 53151 }
                 );
                 
             //  This method will be called after migrating to the latest version.
