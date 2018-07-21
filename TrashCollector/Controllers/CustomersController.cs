@@ -15,8 +15,12 @@ namespace TrashCollector.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Customers
-        public ActionResult Index()
+        public ActionResult Index(string option, string search)
         {
+            if (option == "Pickup Day")
+            {
+                return View(db.Customer.Where(x => x.PickupDay == search || search == null).ToList());
+            }
             return View(db.Customer.ToList());
         }
 
