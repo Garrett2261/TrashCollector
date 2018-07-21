@@ -26,6 +26,9 @@
         <th>
             @Html.DisplayNameFor(model => model.SuspensionEndDate)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </th>
         <th></th>
     </tr>
 
@@ -45,6 +48,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.SuspensionEndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ZipCode)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

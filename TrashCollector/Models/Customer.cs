@@ -15,6 +15,7 @@ namespace TrashCollector.Models
         public int TotalBill { get; set; }
         public string SuspensionStartDate { get; set; }
         public string SuspensionEndDate { get; set; }
+        public int ZipCode { get; set; }
 
         //customer needs a bill
         //customer should not set bill
