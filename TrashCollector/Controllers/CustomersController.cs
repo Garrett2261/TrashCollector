@@ -19,9 +19,12 @@ namespace TrashCollector.Controllers
         {
             if (option == "Pickup Day")
             {
-                return View(db.Customer.Where(x => x.PickupDay == search || search == null).ToList());
+                return View(db.Customer.Where(x => x.PickupDay == search || search == null));
             }
-            return View(db.Customer.ToList());
+            else
+            {
+                return View(db.Customer.ToList());
+            }
         }
 
         // GET: Customers/Details/5
