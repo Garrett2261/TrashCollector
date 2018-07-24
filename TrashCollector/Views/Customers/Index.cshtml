@@ -15,6 +15,7 @@
 
 <h2>Index</h2>
 
+
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -40,6 +41,9 @@
         </th>
         <th></th>
     </tr>
+    
+    @if (Model.Count() == 0) { <tr> <td colspan="3"> Records not found </td></tr>}
+    
 
 @foreach (var item in Model) {
     <tr>
